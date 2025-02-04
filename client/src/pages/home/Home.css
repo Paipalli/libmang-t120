@@ -1,0 +1,241 @@
+.Container {
+    position:fixed;
+    min-height: 300px;
+    max-height: 800px;
+    overflow: hidden;
+    margin-bottom: 500px;
+  }
+  
+  /* Style the video: 100% width and height to cover the entire window */
+  .Video {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .Content {
+    position: absolute;
+    top: 0;
+    color: #f1f1f1;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .SubContent {
+    text-align: center;
+    padding: 10px;
+  }
+  .SubContent p {
+    color: #eeeeeead;
+    font-size: 1.3rem;
+  }
+  .SubContent button {
+    font-weight: bold;
+    margin-top: 30px;
+    color: #f1f1f1;
+    border: #f1f1f1 1px solid;
+    padding: 10px 5px;
+    background-color: hsla(0, 0%, 0%, 0);
+    font-size: 1.25rem;
+    border-radius: 5px;
+  }
+  .SubContent button:hover {
+    background-color: #f1f1f1;
+    color: #000000c0;
+  }
+  
+  .SubContent img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 15px auto;
+    border: #f1f1f1 1px solid;
+  }
+  .btn-outline-dark {
+    background-color:  #E84545;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .btn-outline-dark:hover {
+    background-color:  #E84545;
+    color: #000;
+  }
+
+/* Home.css */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  background-color: rgb(243, 208, 106);
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  height: 35px;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 10px;
+}
+
+.action-button {
+  background-color: #E84545;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.main-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+/* Add these styles to your existing CSS file or create a new one */
+/* Add these styles to your existing CSS file or create a new one */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px; /* Adjust the margin based on your design */
+}
+
+.image-1 {
+  max-width: 0%; /* Adjust the maximum width of the image container */
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px; /* Add border-radius for a rounded appearance */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.text {
+  font-size: 16px;
+  padding: 20px;
+  max-width: 50%; /* Adjust the maximum width of the text container */
+  border-left: 1px solid #ccc; /* Add a border between image and text */
+}
+
+/* Optionally, you can add more styling for better presentation */
+
+
+.wrapper span {
+	position: fixed;
+	bottom: -180px;
+	height: 50px;
+	width: 50px;
+	z-index: -1;
+	background-color: #18191f;
+	box-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff, 0 0 200px #0072ff;
+	animation: animate 10s linear infinite;
+}
+.wrapper span:nth-child(1) {
+	left: 60px;
+	animation-delay: 0.6s;
+}
+.wrapper span:nth-child(2) {
+	left: 10%;
+	animation-delay: 3s;
+	width: 60px;
+	height: 60px;
+}
+.wrapper span:nth-child(3) {
+	left: 20%;
+	animation-delay: 2s;
+    box-shadow: 0 0 50px #ba181b, 0 0 100px #ba181b, 0 0 150px #ba181b, 0 0 200px #ba181b;
+}
+.wrapper span:nth-child(4) {
+	left: 30%;
+	animation-delay: 5s;
+	width: 80px;
+	height: 80px;
+}
+.wrapper span:nth-child(5) {
+	left: 40%;
+	animation-delay: 1s;
+    box-shadow: 0 0 50px #ba181b, 0 0 100px #ba181b, 0 0 150px #ba181b, 0 0 200px #ba181b;}
+.wrapper span:nth-child(6) {
+	left: 50%;
+	animation-delay: 7s;
+    box-shadow: 0 0 50px #ba181b, 0 0 100px #ba181b, 0 0 150px #ba181b, 0 0 200px #ba181b;
+}
+.wrapper span:nth-child(7) {
+	left: 60%;
+	animation-delay: 6s;
+	width: 100px;
+	height: 100px;
+    
+}
+.wrapper span:nth-child(8) {
+	left: 70%;
+	animation-delay: 8s;
+    box-shadow: 0 0 50px #ba181b, 0 0 100px #ba181b, 0 0 150px #ba181b, 0 0 200px #ba181b;
+}
+.wrapper span:nth-child(9) {
+	left: 80%;
+	animation-delay: 6s;
+	width: 90px;
+	height: 90px;
+}
+.wrapper span:nth-child(10) {
+	left: 90%;
+	animation-delay: 4s;
+    box-shadow: 0 0 50px #ba181b, 0 0 100px #ba181b, 0 0 150px #ba181b, 0 0 200px #ba181b;
+}
+.banner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.content h2 b {
+	font-family: montserrat;
+	font-size: 10px;
+    font-weight: 1000;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+    color: #1f0404;
+}
+@keyframes animate {
+	0% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+	80% {
+		opacity: .7;
+	}
+	100% {
+		transform: translateY(-800px) rotate(360deg);
+		opacity: 0;
+	}
+}
